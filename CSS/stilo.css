@@ -1,0 +1,25 @@
+:root {
+    --doradogeneral: #e8d066
+}
+
+footer {
+    background-color: black;
+}
+
+.FooterList{
+    list-style: none;
+}
+
+.linea-separacion{
+    color: var(--doradogeneral)
+}
+
+.Politicasp li a{
+    white-space: nowrap;
+    padding: 0 20px;
+}
+
+.Politicasp li{
+    height: 70px;
+    
+}
