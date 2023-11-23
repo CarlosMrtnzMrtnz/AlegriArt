@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
     --doradogeneral: #e8d066
 }
@@ -23,3 +24,80 @@ footer {
     height: 70px;
     
 }
+=======
+/* .-------root----------- */
+
+
+
+
+
+/* ------ENCABEZADO----------- */
+.secciones {
+  background-image: url(/img/Animales.webp);
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  height: 286px;
+}
+
+/* -------------Cuadros de la grilla */
+
+.grillas {
+    padding: 20px;
+    width: 330px;
+    min-height: 370px;
+    border-radius: 5px;
+    background: #e8e8e8;
+    box-shadow: 3px 3px 10px #F8F3B8,
+                 -3px -3px 10px #e8d066;
+    transition: 0.4s;
+  }
+  
+  .grillas:hover {
+    translate: 0 -10px;
+  }
+  
+  .grillas-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #E9D066;
+    margin: 15px 0 0 10px;
+  }
+  
+  .grillas-image {
+    min-height: 170px;
+    background-color: #c9c9c9;
+    border-radius: 1px;
+    box-shadow: inset 1px 1px 1px #c3c3c3,
+              inset -1px -1px 1px #cfcfcf;
+  }
+  
+  .grillas-body {
+    margin: 13px 0 0 10px;
+    font-size: 15px;
+  
+  }
+  .pieGrillas {
+    float: right;
+    margin: 28px 0 0 18px;
+    font-size: 10px;
+    color:#F8F3B8;
+  }
+  
+  .by-name {
+    font-weight: 700grillas
+  }
+  
+  /* ------------boton animado------- */
+  /* === removing default button style ===*/
+.button {
+  margin: 0;
+  height: auto;
+  background: transparent;
+  padding: 0;
+  border: none;
+  cursor: pointe;
+}
+
+/* ------SECCION--------- */
+>>>>>>> 43b5654b4e54661cadf2b2961656e211002af7d2
