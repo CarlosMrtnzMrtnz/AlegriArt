@@ -1,4 +1,51 @@
 /* .-------root----------- */
+:root {
+    --color-blanco: #fff;
+    --color-dorado: #e8d066;
+    --doradogeneral: #e8d066;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.icon-style {
+    background-color: transparent;
+    border: none;
+    color: var(--color-dorado);
+    font-size: 20px;
+    white-space: nowrap;
+    padding: 0 20px;
+}
+
+.paleta {
+    font-size: 40px;
+}
+
+hr {
+    background-color: #fff;
+}
+
+.ddcolor {
+    color: var(--color-dorado);
+}
+
+.logo1 {
+    font-size: 40px;
+}
+
+
+.bg-color-nav {
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 
 
 
@@ -6,14 +53,76 @@
 
 /* ------ENCABEZADO----------- */
 .secciones {
-  background-image: url(/img/Animales.webp);
+    background-image: url(/img/Animales.webp);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    height: 286px;
+    opacity: 0.9;
+
+}
+
+/* ------------navbar------------------ */
+
+
+
+
+
+
+/* -------slider1-------- */
+.Slider1 {
+  width: 1903px;
+  height: 605px;
+
+
+}
+
+
+/* ------segunda grilla----------- */
+.secciones {
   margin: 0;
   padding: 0;
   background-size: cover;
   height: 286px;
+  opacity: 0.9;
+}
+.tematicos {
+background-image: url(/img/Tematicos.webp);
+}
+.religiosos {
+  background-image: url(/img/Religiosos.webp);
+}
+.flores {
+  background-image: url(/img/flores.jpg);
+}
+.abstractos {
+  background-image: url(/img/abstractos.webp);
+}
+.animales {
+  background-image: url(/img/Animales.webp);
+}
+.tripticos {
+  background-image: url(/img/tripticos.webp);
+}
+.lienzo {
+  background-image: url(/img/lienzo1.webp);
+}
+.obras {
+  background-image: url(/img/obras2.webp);
 }
 
-/* -------------Cuadros de la grilla */
+
+
+
+.secciones:hover {
+    translate: 10px -10px;
+    transform: scale(1.1);
+    opacity: 1.2;
+
+}
+
+
+/* -------------Cuadros de la grilla -----------*/
 
 .grillas {
     padding: 20px;
@@ -22,54 +131,155 @@
     border-radius: 5px;
     background: #e8e8e8;
     box-shadow: 3px 3px 10px #F8F3B8,
-                 -3px -3px 10px #e8d066;
+        -3px -3px 10px #e8d066;
     transition: 0.4s;
-  }
-  
-  .grillas:hover {
+}
+
+.grillas:hover {
     translate: 0 -10px;
-  }
-  
-  .grillas-title {
+}
+
+.grillas-title {
     font-size: 18px;
     font-weight: 600;
     color: #E9D066;
     margin: 15px 0 0 10px;
-  }
-  
-  .grillas-image {
+}
+
+.grillas-image {
     min-height: 170px;
     background-color: #c9c9c9;
     border-radius: 1px;
     box-shadow: inset 1px 1px 1px #c3c3c3,
-              inset -1px -1px 1px #cfcfcf;
-  }
-  
-  .grillas-body {
+        inset -1px -1px 1px #cfcfcf;
+}
+
+.grillas-body {
     margin: 13px 0 0 10px;
     font-size: 15px;
-  
-  }
-  .pieGrillas {
+
+}
+
+.pieGrillas {
     float: right;
     margin: 28px 0 0 18px;
     font-size: 10px;
-    color:#F8F3B8;
-  }
-  
-  .by-name {
+    color: #F8F3B8;
+}
+
+.by-name {
     font-weight: 700grillas
-  }
-  
-  /* ------------boton animado------- */
-  /* === removing default button style ===*/
+}
+
+/* ------------boton animado------- */
+/* === removing default button style ===*/
 .button {
-  margin: 0;
-  height: auto;
-  background: transparent;
-  padding: 0;
-  border: none;
-  cursor: pointe;
+    margin: 0;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointe;
 }
 
 /* ------SECCION--------- */
+.x {
+    height: 200px;
+    width: auto;
+}
+
+
+/* ------FOOTER------- */
+
+footer {
+    background-color: black;
+}
+
+.FooterList {
+    list-style: none;
+}
+
+.FooterList:hover {
+    transform: scale(1.2);
+
+}
+
+.linea-separacion {
+    color: var(--doradogeneral)
+}
+
+.Politicasp li a {
+    white-space: nowrap;
+    padding: 0 20px;
+}
+
+.Politicasp li {
+    height: 70px;
+
+}
+
+
+
+/* ------------------- */
+
+.caro {
+  position: relative;
+  width: 1900px;
+  height: 55px;
+  border-radius: 14px;
+  z-index: 1111;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.bga {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 1890px;
+    height: 45px;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.95);
+    backdrop-filter: blur(24px);
+    border-radius: 7px;
+    overflow: hidden;
+    outline: 2px solid rgb(0, 0, 0);
+}
+
+.blob {
+    position: absolute;
+    z-index: 0.5;
+    top: 50%;
+    left: 50%;
+    width: 1500px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--doradogeneral);
+    filter: blur(3px);
+    animation: blob-bounce 4s infinite ease;
+}
+
+@keyframes blob-bounce {
+    0% {
+        transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+
+    25% {
+        transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+    }
+
+    50% {
+        transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+    }
+
+    75% {
+        transform: translate(-100%, -100%) translate3d(0, 100%, 0);
+    }
+
+    100% {
+        transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+}
