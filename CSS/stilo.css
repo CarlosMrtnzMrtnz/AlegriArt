@@ -1,21 +1,61 @@
 /* .-------root----------- */
 :root {
   --doradogeneral: #e8d066
+
+}
+
+/* ------------navbar------------------ */
+
+
+
+
+
+
+/* -------slider1-------- */
+.Slider1 {
+  width: 1903px;
+  height: 605px;
+
+
 }
 
 
-
-
-/* ------ENCABEZADO----------- */
+/* ------segunda grilla----------- */
 .secciones {
-  background-image: url(/img/Animales.webp);
   margin: 0;
   padding: 0;
   background-size: cover;
   height: 286px;
   opacity: 0.9;
-
 }
+.tematicos {
+background-image: url(/img/Tematicos.webp);
+}
+.religiosos {
+  background-image: url(/img/Religiosos.webp);
+}
+.flores {
+  background-image: url(/img/flores.jpg);
+}
+.abstractos {
+  background-image: url(/img/abstractos.webp);
+}
+.animales {
+  background-image: url(/img/Animales.webp);
+}
+.tripticos {
+  background-image: url(/img/tripticos.webp);
+}
+.lienzo {
+  background-image: url(/img/lienzo1.webp);
+}
+.obras {
+  background-image: url(/img/obras2.webp);
+}
+
+
+
+
 .secciones:hover {
   translate: 10px -10px;
   transform: scale(1.1);
@@ -24,7 +64,7 @@
 }
 
 
-/* -------------Cuadros de la grilla */
+/* -------------Cuadros de la grilla -----------*/
 
 .grillas {
     padding: 20px;
@@ -84,10 +124,7 @@
 }
 
 /* ------SECCION--------- */
-.x {
-  height: 200px;
-  width: auto;
-}
+
 
 
 /* ------FOOTER------- */
@@ -132,9 +169,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  box-shadow;
-  ;
+  /* justify-content: center; */
 }
 
 .bga {
