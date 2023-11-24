@@ -1,0 +1,12 @@
+:root {
+    --color-dorado: #e8d066;
+    --doradogeneral: #e8d066;
+}
+
+
+/* ------------SliderInf------------ */
+.barInf {
+color: var(--doradogeneral);
+font-size: larger;
+
+}
