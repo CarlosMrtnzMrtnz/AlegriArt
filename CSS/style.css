@@ -1,0 +1,43 @@
+:root {
+    --color-blanco: #fff; 
+    --color-dorado: #e8d066;
+}
+    
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.icon-style{
+    background-color: transparent;
+    border: none;
+    color: var(--color-dorado);
+    font-size: 20px;
+    white-space: nowrap;
+    padding: 0 20px;
+}
+
+.paleta{
+    font-size: 40px;
+}
+
+hr{
+    background-color: #fff;
+}
+
+.ddcolor{
+    color: var(--color-dorado);
+}
+
+.logo1{
+    font-size: 40px;
+}
+
+
+.bg-color-nav{
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
