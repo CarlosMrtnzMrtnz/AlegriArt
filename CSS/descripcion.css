@@ -5,8 +5,17 @@
 
 
 /* ------------SliderInf------------ */
-.barInf {
-color: var(--doradogeneral);
-font-size: larger;
 
+.barInf {
+    color: var(--doradogeneral);
+    font-size: larger;
+}
+
+.cajaImagenesP img {
+    width: 100px;
+}
+
+.imagenDetalle {
+    width: 540px;
+    height: 540px;
 }
