@@ -120,6 +120,7 @@ background-image: url(/img/Tematicos.webp);
     translate: 10px -10px;
     transform: scale(1.1);
     opacity: 1.2;
+    transition: 1.5s;
 
 }
 
@@ -203,6 +204,7 @@ footer {
 
 .FooterList:hover {
     transform: scale(1.2);
+    transition: 1s;
 
 }
 
