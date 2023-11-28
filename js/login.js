@@ -19,3 +19,5 @@ document.querySelector("#verPass").addEventListener("click", () => {
         inputPass.setAttribute("data-vista", "off")
     }
 })
+
+//comentario
