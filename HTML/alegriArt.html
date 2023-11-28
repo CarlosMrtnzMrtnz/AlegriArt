@@ -15,6 +15,8 @@
 </head>
 
 <body class="bg-black">
+  <!-- Barra de navegacion-->
+
   <nav class="navbar navbar-expand-lg bg-color-nav">
     <div>
       <button class=" icon-style paleta align-i">
@@ -31,12 +33,12 @@
           <li class="nav-item">
             <a href="#"><button type="button" class="btn btn-outline-secondary">Inicio</button></a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-white btn btn-outline-secondary" href="#" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
+          <li class="nav-item dropdown btn-outline-secondary">
+            <a class="nav-link dropdown-toggle btn color-texto-nav" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
               Categorias
             </a>
-            <ul class="dropdown-menu bg-black">
+            <ul class="dropdown-menu bg-col bg-color-nav">
               <li><a class="dropdown-item ddcolor btn btn-outline-secondary" href="#">Animales</a>
               </li>
               <li><a class="dropdown-item ddcolor btn btn-outline-secondary" href="#">Abstractos</a></li>
@@ -59,40 +61,56 @@
               <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
               <input type="text" class="form-control" placeholder="Username" aria-label="Username"
                 aria-describedby="basic-addon1" style="width: 700px;">
+            <!--buscador interno-->
+            <div class="input-group mb-0">
+              <span class="input-group-text radio-caja bg-var pbi" id="basic-addon1">
+                <i class="fa-solid fa-magnifying-glass text-center" id="nav-color-item"></i></i>
+                <!-- icono lupa interna-->
+              </span>
+              <input type="text" class="form-control border border-warning-subtle" placeholder="busca en nuestra tienda"
+                aria-label="Username" aria-describedby="basic-addon1" style="width: 500px;">
             </div>
           </li>
         </ul>
 
-        <!--Iconos-->
+        <!--Iconos barra-->
         <div class="d-flex">
 
-          <div>
-            <button class="icon-style">
-              <i class="fa-solid fa-user-tie"></i> <!--user-->
-            </button>
-          </div>
-          <div>
-            <button class="icon-style" type="button" id="btnLupa" data-vista="no">
-              <i class="fa-solid fa-magnifying-glass"></i></i> <!--lupa-->
-            </button>
-          </div>
-          <div>
-            <button class="icon-style position-relative">
-              <i class="fa-solid fa-heart"></i></i> <!--favoritos-->
-              <span
-                class="position-absolute top-40 start-90 translate-middle p-1 bg-danger border border-light rounded-circle">
-                <span class="visually-hidden">New alerts</span>
-              </span>
-            </button>
-          </div>
-          <div>
-            <button class="icon-style">
-              <i class="fa-solid fa-cart-arrow-down"></i> <!--carrito de compras-->
-            </button>
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="dropdown mt-3">
+              <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                <i class="fa-solid fa-user-tie dropdown-item-text modal-dialog modal-dialog-centered icon-style"></i>
+                <!--icono usuario-->
+              </button>
+              <ul class="dropdown-menu bg-black ddcolor bg-color-nav ">
+                <li><a class="dropdown-item ddcolor" href="#">Usuario</a></li>
+                <li><a class="dropdown-item ddcolor" href="#">Administrador</a></li>
+            </div>
           </div>
         </div>
-
+        <div>
+          <button class="icon-style" type="button" id="btnLupa" data-vista="no">
+            <i class="fa-solid fa-magnifying-glass"></i></i> <!--lupa-->
+          </button>
+        </div>
+        <div>
+          <button class="icon-style position-relative">
+            <i class="fa-solid fa-heart"></i></i> <!--favoritos-->
+            <span
+              class="position-absolute top-40 start-90 translate-middle p-1 bg-danger border border-light rounded-circle">
+              <span class="visually-hidden">New alerts</span>
+            </span>
+          </button>
+        </div>
+        <div>
+          <button class="icon-style">
+            <i class="fa-solid fa-cart-arrow-down"></i> <!--carrito de compras-->
+          </button>
+        </div>
       </div>
+
+    </div>
   </nav>
 
   <main id="bodyDiv">
