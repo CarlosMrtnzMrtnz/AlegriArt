@@ -1,3 +1,33 @@
+
+:root {
+    --doradogeneral: #e8d066
+}
+
+footer {
+    background-color: black;
+}
+
+.FooterList{
+    list-style: none;
+}
+
+.linea-separacion{
+    color: var(--doradogeneral)
+}
+
+.Politicasp li a{
+    white-space: nowrap;
+    padding: 0 20px;
+}
+
+.Politicasp li{
+    height: 70px;
+    
+}
+
+
+
+
 /* .-------root----------- */
 :root {
     --color-blanco: #fff;
@@ -6,10 +36,20 @@
 }
 
 
-* {
-    margin: 0;
-    padding: 0;
+
+
+/* ------ENCABEZADO----------- */
+.secciones {
+  background-image: url(/img/Animales.webp);
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  height: 286px;
+  opacity: 0.9;
+
 }
+
+/* ------------navbar------------------ */
 
 .icon-style {
     background-color: transparent;
@@ -18,34 +58,40 @@
     font-size: 20px;
     white-space: nowrap;
     padding: 0 20px;
-}
-
-.paleta {
+  }
+  
+  .paleta {
     font-size: 40px;
-}
-
-hr {
+  }
+  
+  hr {
     background-color: #fff;
-}
-
-.ddcolor {
-    color: var(--color-dorado);
-}
-
-.logo1 {
+  }
+  
+  .ddcolor {
+    color: var(--doradogeneral);
+  }
+  
+  .logo1 {
     font-size: 40px;
-}
-
-
-.bg-color-nav {
+  }
+  
+  
+  .bg-color-nav {
     background: #000000;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #434343, #000000);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #434343, #000000);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  }
+  
+  #nav-color-item {
+    color: #000000;
+  }
 
-}
+
 
 
 
@@ -64,7 +110,19 @@ hr {
 
 /* ------------navbar------------------ */
 
+  /* -------NAV-BAR INTERNA-------- */
 
+.radio-caja {
+    border-radius: 40px;
+  }
+  
+  .bg-var {
+    background-color: var(--color-dorado)
+  }
+  
+  .pbi {
+    padding-left: 50px;
+  }
 
 
 
@@ -120,6 +178,7 @@ background-image: url(/img/Tematicos.webp);
     opacity: 1.2;
 
 }
+
 
 
 /* -------------Cuadros de la grilla -----------*/
@@ -182,6 +241,9 @@ background-image: url(/img/Tematicos.webp);
     cursor: pointe;
 }
 
+
+
+
 /* ------SECCION--------- */
 .x {
     height: 200px;
@@ -232,7 +294,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 .bga {
